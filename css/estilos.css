@@ -1,0 +1,622 @@
+#contenedorPrincipal {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#barraNavegacion {
+    display: none;
+}
+
+.input-buscar:focus{
+    outline: none !important;
+    box-shadow: 0 0 5px 2px #007566 !important;
+    border: 1px solid #007566;
+  
+}
+
+.contenedor-logo-universidad {
+    display: flex;
+    justify-content: end;
+}
+
+.logo-universidad {
+    width: 60%;
+    object-fit: cover;
+
+}
+
+.contenedor-icono {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icono-principal {
+    gap: 10px;
+    color: #094017;
+    font-size: 20px;
+}
+
+.menu-lateral {
+    width: 70% !important;
+}
+
+.contenedor-desplazar-imagenes {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.imagen-carrucel {
+    width: 100%;
+    height: 90%;
+}
+
+.contenedor-imagen-informacion {
+    margin-top: 5px;
+}
+
+.imagen-informacion {
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-informacion {
+    flex-direction: column;
+    align-items: center;
+}
+
+#contenedorTituloAccesoRapido {
+    background-color: #265C4B;
+    width: 90%;
+    height: 25px;
+    padding: auto;
+}
+
+.titulo-informacion {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+#contenedorAccesoRapido,
+#tituloRedesSociales {
+    background-color: #265C4B;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.lista {
+    font-size: 12px;
+    color: white;
+    display: flex;
+    padding: 5px 0;
+    text-align: justify;
+}
+
+.lista::before {
+    content: "•";
+    color: white;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+#contenedorTituloLaUniversidad,
+#contenedorTituloGestion {
+    background-color: #146551;
+    width: 90%;
+    height: 25px;
+    padding: auto;
+}
+
+#contenedorGestion,
+#contenedorLaUniversidad,
+#facebook {
+    background-color: #146551;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#contenedorTituloServicio {
+    background-color: #275950;
+    width: 90%;
+    height: 25px;
+    padding: auto;
+}
+
+#contenedorServicio,
+#twitter {
+    background-color: #275950;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#contenedorTituloConvocatoria,
+#contenedorTituloProgramasMenu,
+#contenedorTituloNoticia {
+    background-color: #217373;
+    width: 90%;
+    height: 25px;
+    padding: auto;
+}
+
+.contenedor-informacion-noticia {
+    background-color: #217373;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.imagen-noticia{
+    width: 100%;
+}
+
+.titulo-noticia,
+.texto-noticia {
+    font-size: 12px;
+}
+
+.texto-noticia {
+    text-align: justify;
+}
+
+#contenedorConvocatoria,
+#contenedorProgramasMenu,
+#instagram {
+    background-color: #217373;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#contenedorTituloInvestigacion {
+    background-color: #2A8C82;
+    width: 90%;
+    height: 25px;
+    padding: auto;
+}
+
+#contenedorInvestigacion,
+#tiktok {
+    background-color: #2A8C82;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#contenedorTituloSede {
+    background-color: #275950;
+    width: 90%;
+    height: 25px;
+    padding: auto;
+}
+
+#contenedorSedeGuaviare,
+#contenedorSedePutumayo,
+#contenedorSedeLeticia,
+#youtube {
+    background-color: #275950;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contenedor-informacion-icono {
+    background-color: #007566;
+    width: 90%;
+    height: 100% !important;
+    height: 25px;
+    padding: auto;
+    gap: 10px
+}
+
+.card {
+    width: 100% !important;
+    height: 30% !important;
+    margin-bottom: 5px;
+}
+
+.card-noticia {
+    display: flex;
+    align-items: center;
+    width: 100% !important;
+    height: 70% !important;
+}
+
+.imagen-sede {
+    width: 100% !important;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.boton-sede {
+    background-color: #275950;
+    border: solid #275950;
+    font-size: 15px;
+}
+
+.boton-sede:hover{
+    background-color: #094017 !important;
+    border: solid #094017 !important;
+}
+
+.contenedor-informacion-interes {
+    background-color: #F8F7F7;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.titulo-informacion-interes {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+.lista-negrita {
+    font-size: 12px;
+    color: black;
+    display: flex;
+    padding: 5px 0;
+    text-align: justify;
+}
+
+.lista-negrita::before {
+    content: "•";
+    color: black;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.blur-background {
+    filter: blur(5px);
+    transition: filter 0.3s ease-in-out;
+}
+
+.texto-principal {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+.item-menu-lateral {
+    margin-bottom: 10px;
+}
+
+.contenedor-informacion-interes {
+    align-items: center;
+}
+
+.contenedor-informacion-interes-cuerpo {
+    align-items: start;
+    background-color: #F8F7F7;
+}
+
+@media (min-width: 600px) and (max-width: 775px) {
+
+    #contenedorPrincipal {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #contenedorInfomacionPieDePagina {
+        display: grid;
+        background-color: #F8F7F7;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 400px 300px 200px;
+        grid-template-areas:
+            "descubre informacion "
+            "servicio aplicacion"
+            "programa donde"
+        ;
+        justify-items: center;
+    }
+
+    #contenedorPrincipalAplicacionesWeb {
+        grid-area: aplicacion;
+
+    }
+
+    #contenedorPrincipalDescubreLaUniversidad {
+        grid-area: descubre;
+    }
+
+    #contenedorPrincipalInformacionInstitucional {
+        grid-area: informacion;
+    }
+
+    #contenedorPrincipalProgramas {
+        grid-area: programa;
+    }
+
+    #contenedorPrincipalServicios {
+        grid-area: servicio;
+    }
+
+    #contenedorPrincipalDondeEstamos {
+        grid-area: donde;
+    }
+
+}
+
+@media (min-width: 776px) {
+
+    #contenedorPrincipal {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #contenedorCabecera {
+        display: none;
+    }
+
+    #barraNavegacion {
+        display: block;
+        margin-top: -6px;
+        margin-bottom: 10px;
+    }
+
+    .item-menu {
+        font-weight: bold;
+        font-size: 11px;
+    }
+
+    .item-menu:hover {
+        color: #094017 !important;
+    }
+
+    .logo-universidad {
+        width: 10%;
+    }
+
+    #cotenedorInformacionPrincipal {
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 500px);
+        grid-template-areas:
+            "servicios laUniversidad accesoRapido investigacion"
+            "servicios programa gestion convocatoria"
+        ;
+    }
+
+    #contenedorPrincipalServicio {
+        grid-area: servicios;
+    }
+
+    #contenedorPrincipalLaUniversidad {
+        grid-area: laUniversidad;
+    }
+
+    #contenedorPrincipalProgramasMenu {
+        grid-area: programa;
+    }
+
+    #contenedorPrincipalAccesoRapido {
+        grid-area: accesoRapido;
+    }
+
+    #contenedorPrincipalGestion {
+        grid-area: gestion;
+    }
+
+    #contenedorPrincipalConvocatoria {
+        grid-area: convocatoria;
+    }
+
+    #contenedorPrincipalInvestigacion {
+        grid-area: investigacion;
+    }
+
+    #contenedorTituloLaUniversidad,
+    #contenedorTituloProgramasMenu,
+    #contenedorTituloAccesoRapido,
+    #contenedorTituloGestion,
+    #contenedorTituloConvocatoria,
+    #contenedorTituloInvestigacion {
+        height: 5%;
+    }
+
+    #contenedorServicio {
+        height: 80%;
+    }
+
+    #contenedorLaUniversidad,
+    #contenedorAccesoRapido,
+    #contenedorInvestigacion {
+        height: 95%;
+    }
+
+    #contenedorProgramasMenu,
+    #contenedorGestion,
+    #contenedorConvocatoria {
+        height: 60%;
+    }
+
+    #contenedorNoticia {
+        margin-top: -170px;
+        display: grid;
+        background-color: #217373;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 40px 540px;
+        grid-template-areas:
+            "titulo titulo titulo"
+            "noticiaUno noticiaDos noticiaTres";
+            margin-bottom: 5px;
+    }
+
+    #contenedorPrincipalNoticia {
+        grid-area: titulo;
+    }
+
+    #contenedorPrincipalNoticiaUno {
+        grid-area: noticiaUno;
+    }
+
+    #contenedorPrincipalNoticiaDos {
+        grid-area: noticiaDos;
+    }
+
+    #contenedorPrincipalNoticiaTres {
+        grid-area: noticiaTres;
+    }
+
+    #contenedorTituloNoticia {
+        width: 100%;
+        justify-items: center;
+    }
+
+    #contenedorRedesSociales {
+        display: grid;
+        background-color: #265C4B;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 30px 50px;
+        grid-template-areas:
+            "titulo titulo titulo titulo titulo"
+            "facebook twitter instagram youtube tiktok"
+        ;
+
+        margin-bottom: 5px;
+    }
+
+    #facebook,
+    #twitter,
+    #instagram,
+    #youtube,
+    #tiktok {
+        background-color: #265C4B;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #contenedorPrincipalRedesSociales {
+        grid-area: titulo;
+    }
+
+    #contenedorPrincipalFacebook {
+        grid-area: facebook;
+    }
+
+    #contenedorPrincipalTwitter {
+        grid-area: twitter;
+    }
+
+    #contenedorPrincipalInstagram {
+        grid-area: instagram;
+    }
+
+    #contenedorPrincipalYoutube {
+        grid-area: youtube;
+    }
+
+    #contenedorPrincipalTiktok {
+        grid-area: tiktok;
+    }
+
+    #tituloRedesSociales {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    #contenedorImagenSede {
+        display: grid;
+        background-color: #275950;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 30px, 300px;
+        grid-template-areas:
+            "tituloSede tituloSede tituloSede"
+            "guaviare putumayo leticia"
+        ;
+    }
+
+    #contenedorPrincipalTitulo {
+        grid-area: tituloSede;
+    }
+
+    #contenedorPrincipalSedeGuaviare {
+        grid-area: guaviare;
+    }
+
+    #contenedorPrincipalSedePutumayo {
+        grid-area: putumayo;
+    }
+
+    #contenedorPrincipalSedeLeticia {
+        grid-area: leticia;
+    }
+
+    #contenedorTituloSede {
+        width: 100%;
+        justify-items: center;
+    }
+
+    .card {
+        height: 100% !important;
+    }
+
+    #contenedorInfomacionPieDePagina {
+        display: grid;
+        background-color: #F8F7F7;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 500px 200px;
+        grid-template-areas:
+            "descubre informacion servicio"
+            "aplicacion programa donde"
+        ;
+        justify-items: center;
+    }
+
+    #contenedorPrincipalAplicacionesWeb {
+        grid-area: aplicacion;
+
+    }
+
+    #contenedorPrincipalDescubreLaUniversidad {
+        grid-area: descubre;
+    }
+
+    #contenedorPrincipalInformacionInstitucional {
+        grid-area: informacion;
+    }
+
+    #contenedorPrincipalProgramas {
+        grid-area: programa;
+    }
+
+    #contenedorPrincipalServicios {
+        grid-area: servicio;
+    }
+
+    #contenedorPrincipalDondeEstamos {
+        grid-area: donde;
+    }
+
+    .contenedor-informacion-interes {
+        align-items: center;
+    }
+
+    .contenedor-informacion-interes-cuerpo {
+        align-items: start;
+    }
+
+    .card-noticia {
+        display: flex;
+        align-items: center;
+        width: 100% !important;
+        height: 83vh !important;
+    }
+}

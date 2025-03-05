@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container text-center" id="contenedorPrincipal">
+        <div class="row" id="contenedorCabecera">
+            <div class="col-1 contenedor-icono" data-bs-toggle="offcanvas" data-bs-target="#offcanvas">
+                <i class="fa-solid fa-bars icono-principal icono-menu"></i>
+            </div>
+            <div class="col-1 contenedor-icono">
+                <i class="fa-solid fa-user icono-principal"></i>
+            </div>
+            <div class="col-1 contenedor-icono">
+                <i class="fa-solid fa-envelope icono-principal"></i>
+            </div>
+            <div class="col-9 contenedor-logo-universidad">
+                <img src="./img/Logo Universidad.jpg" class="img-fluid logo-universidad" alt="...">
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="barraNavegacion">
+            <div class="container-fluid col-md-12" id="contenedorBarraNavegacion">
+                <img src="./img/Logo Universidad.jpg" class="img-fluid logo-universidad" alt="...">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active item-menu" aria-current="page" href="#">CHAIRÁ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active item-menu" aria-current="page" href="#">CORREO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active item-menu" aria-current="page" href="#">AULA EXTENDIDA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active item-menu" aria-current="page" href="#">CAMPUS VIRTUAL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active item-menu" aria-current="page" href="#">ATENCIÓN AL CIUDADANO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active item-menu" aria-current="page" href="#">SIGC</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active item-menu" aria-current="page" href="#">INVITACIONES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active item-menu" aria-current="page" href="#">CONVENIOS OARI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active item-menu" aria-current="page" href="#">BPM.GOV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active item-menu" aria-current="page" href="#">SECOP II</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2 input-buscar" type="search" placeholder="Buscar..." aria-label="Search">
+                        <button class="btn btn-outline-success boton-buscar" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExample col-12 col-sm-12 co-md-12" class="carousel slide contenedor-desplazar-imagenes">
+            <div class="carousel-inner">
+                <div class="carousel-item active ">
+                    <img src="./img/Imagen Uno.png" class="d-block w-100 imagen-carrucel" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/Imagen Dos.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/Imagen Tres.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="col-12" id="cotenedorInformacionPrincipal">
+            <div class="row contenedor-informacion" id="contenedorPrincipalLaUniversidad">
+                <div class="col-12" id="contenedorTituloLaUniversidad">
+                    <p class="text-start titulo-informacion">La Universidad</p>
+                </div>
+                <div class="col-12" id="contenedorLaUniversidad">
+                    <ul>
+                        <a href="#" class="list-group-item list-group-item-action lista">Presentación</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Organigrama</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Órganos de Dirección</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Perfil de Funcionarios</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Directorio de Funcionarios</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Dependencias</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Asignaciones Salariales</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Escala de Viáticos</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Mapa de Procesos SIGC</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Mapa de Sitio</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Transparencia y acceso a
+                            Información Pública</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Participa</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Camino a la Acreditación
+                            Institucional</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="row contenedor-informacion" id="contenedorPrincipalProgramasMenu">
+                <div class="col-12" id="contenedorTituloProgramasMenu">
+                    <p class="text-start titulo-informacion">Programas</p>
+                </div>
+                <div class="col-12" id="contenedorProgramasMenu">
+                    <ul>
+                        <a href="#" class="list-group-item list-group-item-action lista">Pregrado</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Posgrado</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Educación a Distancia</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Educación Continuada</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="row contenedor-informacion" id="contenedorPrincipalAccesoRapido">
+                <div class="col-12" id="contenedorTituloAccesoRapido">
+                    <p class="text-start titulo-informacion">Accesos Rápidos</p>
+                </div>
+                <div class="col-12" id="contenedorAccesoRapido">
+                    <ul>
+                        <a href="#" class="list-group-item list-group-item-action lista">Inscripciones</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Aspirantes</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Estudiantes</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Graduados</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Calendario Académico</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Catálogo en Línea OPAC</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">PQRS-D</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Participa</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Contratación</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="row contenedor-informacion" id="contenedorPrincipalGestion">
+                <div class="col-12" id="contenedorTituloGestion">
+                    <p class="text-start titulo-informacion">Gestión</p>
+                </div>
+                <div class="col-12" id="contenedorGestion">
+                    <ul>
+                        <a href="#" class="list-group-item list-group-item-action lista">Control y Rendición de
+                            Cuentas</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Politicas, Planes, Programas y
+                            Proyectos Instucionales</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Plan de Desarrollo
+                            Institucional</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Defensa Judicial</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Información Financiera</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="row contenedor-informacion" id="contenedorPrincipalServicio">
+                <div class="col-12" id="contenedorTituloServicio">
+                    <p class="text-start titulo-informacion">Servicios</p>
+                </div>
+                <div class="col-12" id="contenedorServicio">
+                    <ul>
+                        <a href="#" class="list-group-item list-group-item-action lista">Atención al Ciudadano</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Foros de Discusión</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Radio en Línea</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Trámites Uniamazonia</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Noticias y Eventos</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Datos Abiertos</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Portafolios Sector Externo</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Preguntas y Respuestas
+                            Frecuentes</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Verificación de
+                            Certificados</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Sistema Genral de Regalias</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Notiicaciones por Aviso</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Verificación de Carné</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Consultorio Jurídico y Centro
+                            de
+                            Concilación Virtual</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Un Mundo de Oportunidades</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Encuestas</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Portal para niños</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Acciones contra el COVID-19</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Informaición para Mujeres</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Otros grupos de interés</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Portafolio de Servicios FCA</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Grupos de interés</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="row contenedor-informacion" id="contenedorPrincipalConvocatoria">
+                <div class="col-12" id="contenedorTituloConvocatoria">
+                    <p class="text-start titulo-informacion">Convocatorias</p>
+                </div>
+                <div class="col-12" id="contenedorConvocatoria">
+                    <ul>
+                        <a href="#" class="list-group-item list-group-item-action lista">Ofertas de Empleo</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Invitaciones a Contratar</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Elecciones</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Proveedores</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="row contenedor-informacion" id="contenedorPrincipalInvestigacion">
+                <div class="col-12" id="contenedorTituloInvestigacion">
+                    <p class="text-start titulo-informacion">Investigación</p>
+                </div>
+                <div class="col-12" id="contenedorInvestigacion">
+                    <ul>
+                        <a href="#" class="list-group-item list-group-item-action lista">Vicerrectoría de investigación
+                            e
+                            Innovación</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Grupos de Investigación</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Nuestras Revistas</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Convocatorias</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Unidades de Apoyo a la
+                            Investigación</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Laboratorios e
+                            Infraestructura</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Editorial</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">SIGEPI</a>
+                        <a href="#" class="list-group-item list-group-item-action lista">Convocatorias Minciencias</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-12" id="contenedorNoticia">
+            <div class="row contenedor-informacion" id="contenedorPrincipalNoticia">
+                <div class="col-12" id="contenedorTituloNoticia">
+                    <p class="text-start titulo-informacion titulo-noticias">Noticias</p>
+                </div>
+            </div>
+            <div class="row contenedor-informacion" id="contenedorPrincipalNoticiaUno">
+                <div class="col-12 contenedor-informacion-noticia">
+                    <div class="card card-noticia" style="width: 18rem;">
+                        <img src="./img/Noticia 1.jpg" class="card-img-top imagen-noticia" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title titulo-noticia">DÍA MUNDIAL DEL RECICLAJE</h5>
+                            <p class="card-text texto-noticia">"Día Mundial del Reciclaje: Un Llamado Global a la Acción
+                                por un Planeta más Sostenible...</p>
+                            <a href="#">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row contenedor-informacion" id="contenedorPrincipalNoticiaDos">
+                <div class="col-12 contenedor-informacion-noticia">
+                    <div class="card card-noticia" style="width: 18rem;">
+                        <img src="./img/Noticia 2.jpg" class="card-img-top imagen-noticia" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title titulo-noticia">JORNADA DE FORMACIÓN EN RECURSOS PARA LA ACADEMIA Y LA INVESTIGACIÓN CON CONSORCIO COLOMBIA</h5>
+                            <p class="card-text texto-noticia">Invitación a todos los Docentes de la universidad de la
+                                Amazonia para que participen en la Jornada...</p>
+                            <a href="#">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row contenedor-informacion" id="contenedorPrincipalNoticiaTres">
+                <div class="col-12 contenedor-informacion-noticia">
+                    <div class="card card-noticia" style="width: 18rem;">
+                        <img src="./img/Noticia 3.jpg" class="card-img-top imagen-noticia" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title titulo-noticia">FÚTBOL UNIAMAZONIA</h5>
+                            <p class="card-text texto-noticia">¡Vive tu pasión por el fútbol! Consulta los horarios de
+                                entrenamiento de Fútbol sala para...</p>
+                            <a href="#">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12" id="contenedorRedesSociales">
+            <div class="row contenedor-informacion" id="contenedorPrincipalRedesSociales">
+                <div class="col-12 contenedor-informacion-icono" id="tituloRedesSociales">
+                    <p class="text-start titulo-informacion">
+                        Redes Sociales UDLA</p>
+                </div>
+            </div>
+            <div class="row  contenedor-informacion" id="contenedorPrincipalFacebook">
+                <div class="col-12 contenedor-informacion-icono" id="facebook">
+                    <p class="text-start titulo-informacion">
+                        <a href="https://www.facebook.com/uniamazonia.edu.co" target="_blank"
+                            class="text-decoration-none text-primary d-flex align-items-center text-white">
+                            <i class="fa-brands fa-facebook fs-4 me-2"></i>
+                            UDLAoficial
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="row  contenedor-informacion" id="contenedorPrincipalTwitter">
+                <div class="col-12 contenedor-informacion-icono" id="twitter">
+                    <p class="text-start titulo-informacion">
+                        <a href="https://x.com/uniamazonia" target="_blank"
+                            class="text-decoration-none text-primary d-flex align-items-center text-white">
+                            <i class="fa-brands fa-x-twitter fs-4 me-2"></i>
+                            @UDLAoficial
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="row  contenedor-informacion" id="contenedorPrincipalInstagram">
+                <div class="col-12 contenedor-informacion-icono" id="instagram">
+                    <p class="text-start titulo-informacion">
+                        <a href="https://www.instagram.com/uniamazonia/" target="_blank"
+                            class="text-decoration-none text-primary d-flex align-items-center text-white">
+                            <i class="fa-brands fa-instagram fs-4 me-2"></i>
+                            @UDLAoficial
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="row  contenedor-informacion" id="contenedorPrincipalYoutube">
+                <div class="col-12 contenedor-informacion-icono" id="youtube">
+                    <p class="text-start titulo-informacion">
+                        <a href="https://www.youtube.com/c/uamazonia" target="_blank"
+                            class="text-decoration-none text-primary d-flex align-items-center text-white">
+                            <i class="fa-brands fa-youtube fs-4 me-2"></i>
+                            /UDLAoficial
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="row  contenedor-informacion" id="contenedorPrincipalTiktok">
+                <div class="col-12 contenedor-informacion-icono" id="tiktok">
+                    <p class="text-start titulo-informacion">
+                        <a href="https://www.tiktok.com/@uniamazonia" target="_blank"
+                            class="text-decoration-none text-primary d-flex align-items-center text-white">
+                            <i class="fa-brands fa-tiktok fs-4 me-2"></i>
+                            @UDLAoficial
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12" id="contenedorImagenSede">
+            <div class="row contenedor-informacion" id="contenedorPrincipalTitulo">
+                <div class="col-12" id="contenedorTituloSede">
+                    <p class="text-start titulo-informacion">Sedes</p>
+                </div>
+            </div>
+            <div class="row contenedor-informacion" id="contenedorPrincipalSedeGuaviare">
+                <div class="col-12" id="contenedorSedeGuaviare">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/Sede Guaviare.jpg" class="card-img-top imagen-sede" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary boton-sede">Sede Guaviare</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row contenedor-informacion" id="contenedorPrincipalSedePutumayo">
+                <div class="col-12" id="contenedorSedePutumayo">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/Sede Putumayo.jpg " class="card-img-top imagen-sede" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary boton-sede">Sede Putumayo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row contenedor-informacion" id="contenedorPrincipalSedeLeticia">
+                <div class="col-12" id="contenedorSedeLeticia">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/Sede Leticia.jpg " class="card-img-top imagen-sede" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary boton-sede">Sede Leticia</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12" id="contenedorInfomacionPieDePagina">
+            <div class="row contenedor-informacion" id="contenedorPrincipalAplicacionesWeb">
+                <div class="col-12 contenedor-informacion-interes" id="contenedorTituloAplicacionWeb">
+                    <p class="text-start titulo-informacion-interes">Aplicaciones Web</p>
+                </div>
+                <div class="col-12 contenedor-informacion-interes-cuerpo">
+                    <ul>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Liquidación</a>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Catalogo en Línea
+                            (OPAC)</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="row contenedor-informacion" id="contenedorPrincipalDescubreLaUniversidad">
+                <div class="col-12 contenedor-informacion-interes" id="contenedorTituloDescrubeLaUniversidad">
+                    <p class="text-start titulo-informacion-interes">Descubre la Universidad</p>
+                </div>
+                <div class="col-12 contenedor-informacion-interes-cuerpo">
+                    <ul>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Marco Jurídico</a>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Rendición de
+                            Cuentas</a>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Plan de Desarrollo
+                            PDI</a>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Transparencia y Acceso
+                            a la
+                            Información</a>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Participa</a>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Portal para niños</a>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Ofertas de Empleo</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="row contenedor-informacion" id="contenedorPrincipalInformacionInstitucional">
+                <div class="col-12 contenedor-informacion-interes" id="contenedorTituloInformacionInstitucional">
+                    <p class="text-start titulo-informacion-interes">Informacion Institucional</p>
+                </div>
+                <div class="col-12 contenedor-informacion-interes-cuerpo">
+                    <ul>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Estatuo General</a>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Estatuto Docente</a>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Estatuto
+                            Estudiantil</a>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Estatuto de
+                            Contratación</a>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Estatuto de
+                            Biblioteca</a>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Estatuto del
+                            Investigador</a>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Estatuto de
+                            Electoral</a>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Estatuto de
+                            Presupuestal</a>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Estatuto de
+                            Posgrados</a>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Políticas de Bienestar
+                            Universitario</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="row contenedor-informacion" id="contenedorPrincipalProgramas">
+                <div class="col-12 contenedor-informacion-interes" id="contenedorTituloProgramas">
+                    <p class="text-start titulo-informacion-interes">Programas</p>
+                </div>
+                <div class="col-12 contenedor-informacion-interes-cuerpo">
+                    <ul>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Admisiones y
+                            Registro</a>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Tarifas / Derechos
+                            Pecuniarios</a>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Instructivo - Procesos
+                            Académicos</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="row contenedor-informacion" id="contenedorPrincipalServicios">
+                <div class="col-12 contenedor-informacion-interes" id="contenedorTituloServicios">
+                    <p class="text-start titulo-informacion-interes">Servicios</p>
+                </div>
+                <div class="col-12 contenedor-informacion-interes-cuerpo">
+                    <ul>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Editorial
+                            Uniamazonia</a>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Consultorio Contable
+                            Tributario</a>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Núcleos de Apoyo
+                            Contable y
+                            Fiscal (NAF)</a>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Consultorio
+                            Jurídico</a>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Centro de
+                            Conciliación</a>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Centro de Idiomas</a>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Unidad de
+                            Emprendimiento</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="row contenedor-informacion" id="contenedorPrincipalDondeEstamos">
+                <div class="col-12 contenedor-informacion-interes" id="contenedorTituloDondeEstamos">
+                    <p class="text-start titulo-informacion-interes">Dónde estamos</p>
+                </div>
+                <div class="col-12 contenedor-informacion-interes-cuerpo">
+                    <ul>
+                        <a href="#" class="list-group-item list-group-item-action lista-negrita">Programas en otras
+                            ciudades</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-start menu-lateral" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-header">
+            <div class="col-11">
+                <img src="./img/Logo Universidad.jpg" class="img-fluid logo-universidad" alt="...">
+            </div>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <a href="" class="text-decoration-none text-dark d-flex align-items-center item-menu-lateral">
+                <span class="texto-principal">AULA EXTENDIDA</span>
+            </a>
+            <a href="" class="text-decoration-none text-dark d-flex align-items-center item-menu-lateral">
+                <span class="texto-principal">CAMPUS VIRTUAL</span>
+            </a>
+            <a href="" class="text-decoration-none text-dark d-flex align-items-center item-menu-lateral">
+                <span class="texto-principal">ATENCIÓN AL CIUDADANO</span>
+            </a>
+            <a href="" class="text-decoration-none text-dark d-flex align-items-center item-menu-lateral">
+                <span class="texto-principal">SIGC</span>
+            </a>
+            <a href="" class="text-decoration-none text-dark d-flex align-items-center item-menu-lateral">
+                <span class="texto-principal">INVITACIONES</span>
+            </a>
+            <a href="" class="text-decoration-none text-dark d-flex align-items-center item-menu-lateral">
+                <span class="texto-principal">CONVENIOS OARI</span>
+            </a>
+            <a href="" class="text-decoration-none text-dark d-flex align-items-center item-menu-lateral">
+                <span class="texto-principal">BPM.GOV</span>
+            </a>
+            <a href="" class="text-decoration-none text-dark d-flex align-items-center item-menu-lateral">
+                <span class="texto-principal">SECOP II</span>
+            </a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
